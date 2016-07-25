@@ -4,7 +4,7 @@ A Repository to put everything related with my proto-so-called-company "Gridy". 
 ## Some Tips 
 **Android Studio: No Action Bar**
 ```XML
-android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+<android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 ```
 **Android Studio: Portrait/Landscape**
 ```XML
