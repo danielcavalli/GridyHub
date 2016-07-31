@@ -41,3 +41,8 @@ private void checkBTState() {
 <uses-permission android:name="android.permission.BLUETOOTH"/>
 <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
 ```
+**Get paired phones/bluetooths by this Smartphone**
+```Java
+Set<BluetoothDevice> pairedDevices = mBtAdapter.getBondedDevices();
+```
+
